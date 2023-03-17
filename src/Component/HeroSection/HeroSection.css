@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0px 5px;
+  padding: 12px 5px;
 }
 
 .hero_content {
@@ -29,19 +29,19 @@
 
 .hero_primary_heading {
   font-size: 48px;
-  margin: 0px 10px;
+  margin: 0px 15px;
 }
 .hero_secondary_heading {
   font-size: 18px;
   font-weight: 400;
   margin-top: -20px;
-  margin: 0px 10px;
+  margin: 0px 15px;
 }
 .hero_description {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  margin: 0px 10px;
+  margin: 0px 15px;
 }
 
 @media screen and (max-width: 400px) {
@@ -53,5 +53,11 @@
 @media screen and (max-width: 600px) {
   .hero_primary_heading {
     font-size: 32px;
+  }
+
+  .hero__Section {
+    background: url("./Assets/hero_bg.jpg") no-repeat center center/cover;
+    height: fit-content;
+    width: 100%;
   }
 }

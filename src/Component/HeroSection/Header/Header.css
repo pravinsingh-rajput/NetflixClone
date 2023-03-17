@@ -81,4 +81,8 @@ button:focus {
     display: flex;
     align-items: center;
   }
+
+  header {
+    padding: 15px 8px;
+  }
 }
