@@ -1,0 +1,81 @@
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 0px 30px;
+  width: fit-content;
+  margin-top: 15px;
+}
+
+.emailAddress {
+  padding: 15px 11px;
+  background: rgba(0, 0, 0, 0.212);
+  margin-right: 10px;
+  border: 1px solid rgb(145, 145, 145);
+  caret-color: #ffff;
+  color: #ffff;
+  width: 350px;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.emailAddress::placeholder {
+  color: #7a7878;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.submit_btn {
+  display: flex;
+  background-color: rgb(247, 14, 14);
+  border: none;
+  color: #ffff;
+  border-radius: 4px;
+  font-size: 24px;
+  align-items: center;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.submit_btn:hover {
+  background-color: rgb(193, 17, 25);
+}
+
+.submit_btn img {
+  filter: invert(1);
+}
+
+@media screen and (max-width: 400px) {
+  .emailAddress {
+    width: 90%;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .submit_btn {
+    padding: 8px 12px;
+    width: fit-content;
+    margin: 10px;
+  }
+
+  .emailAddress {
+    margin-right: 0px;
+  }
+}

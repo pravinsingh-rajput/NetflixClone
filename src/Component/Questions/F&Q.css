@@ -1,0 +1,18 @@
+.frequentQuetions {
+  background-color: black;
+  border-bottom: 10px solid rgb(73, 73, 73);
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.fqtitle {
+  text-align: center;
+  margin: 0px 10px;
+  margin-bottom: 40px;
+}

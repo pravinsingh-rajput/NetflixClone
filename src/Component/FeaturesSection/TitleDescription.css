@@ -1,0 +1,23 @@
+.feature_title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.feature_desc {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 960px) {
+  .feature_title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .feature_desc {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+}

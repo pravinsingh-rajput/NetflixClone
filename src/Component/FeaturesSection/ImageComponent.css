@@ -1,0 +1,14 @@
+.feature_img {
+  width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .feature_img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .feature_img {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+.nav_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_img {
+  width: 15px;
+  filter: invert(100);
+  margin: 0px 5px;
+}
+
+.btn_lang {
+  background-color: transparent;
+  color: rgb(197, 194, 194);
+  border: 1px solid rgb(173, 173, 173);
+  width: fit-content;
+  padding: 8px 2px;
+}

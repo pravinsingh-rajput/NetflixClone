@@ -1,0 +1,84 @@
+header {
+  height: fit-content;
+  padding: 15px 10%;
+}
+
+nav {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_img {
+  width: 120px;
+}
+
+.btn_img {
+  width: 15px;
+  filter: invert(100);
+  margin: 0px 5px;
+}
+
+.nav_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  padding: 2px 8px;
+  display: flex;
+  align-items: center;
+}
+
+button:focus {
+  outline: none;
+}
+
+.nav_btn {
+  padding: 8px 20px;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.btn_lang {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  width: fit-content;
+  padding: 8px 2px;
+}
+
+.btn_signin {
+  background-color: rgb(229, 17, 25);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(229, 18, 27);
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.btn_signin:hover {
+  background-color: rgb(193, 17, 25);
+  border: 2px solid rgb(193, 17, 25);
+}
+
+@media screen and (max-width: 600px) {
+  .logo_img {
+    height: 36px;
+  }
+  header {
+    height: fit-content;
+    padding: 15px 1%;
+  }
+
+  .btn_lang {
+    font-size: 0;
+  }
+
+  .buttons {
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+  }
+}
