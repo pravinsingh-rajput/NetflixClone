@@ -1,6 +1,6 @@
 # Netflix Clone
 
-[Website Link](https://netflixindia-clone.netlify.app/)
+[Website Link](https://netflixindia.vercel.app/)
 
 
 ![Netflix Clone by Pravin Singh Frontend Developer](https://user-images.githubusercontent.com/60979495/225842009-3deb1885-6ebe-4fc8-86a9-fd5d09050be4.png)
